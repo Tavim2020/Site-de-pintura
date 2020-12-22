@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/img/logo.jpg" type="jpg">
+    <link rel="stylesheet" href="/style/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <script defer src="/script/contato.js"></script>
+    <title>|| Empresa no Ramo da Pintura ||</title>
+</head>
+
+<body>
+
+    <div class="fixed">
+        <div class="menu">
+            <img class="menu-img" src="/img/pixlr-bg-result (2).png" alt="Menu">
+            <div class="hidden">
+                <span>
+                    <h3>Ma Paint Work</h3>
+                </span>
+
+                <h4>Menu</h4>
+                <nav>
+                    <ul>
+                        <li><a href="/empresa">Empresa</a></li>
+                        <li><a href="/servico">Serviços</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <div>
+            <a href="mailto:otaviodossantoslopes12345@gmail.com">
+                <img class="whats-top" src="/img/wahts.icon.png" alt="WhatsApp">
+            </a>
+        </div>
+
+        <div class="home">
+            <h2><a href="/">Home</a></h2>
+        </div>
+
+
+        <div class="barra-acess">
+            <h1>Empresa no Ramo Da Pintura</h1>
+        </div>
+
+    </div>
+
+    <span class="contato-top">
+
+        <h4>Pintura Residencial, Predial, Comercial e Industrial</h4>
+        <h4>Contato: +55(16)99393-6784/+55(16)3726-2378</h4>
+
+    </span>
+
+    <h2 class="h2">Preencha o Formulário abaixo e entre em contato conosco</h2>
+
+    <form name="form" action="/savepoint" method="POST" onsubmit="return validate()">
+
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" maxlength="15" placeholder="Digite seu Nome">
+
+        <label for="E-mail">E-Mail</label>
+        <input type="email" name="email" id="email" maxlength="50" placeholder="Ex:contato@gmail.com">
+
+        <label for="telefone">Telefone</label>
+        <input type="text" name="telefone" id="telefone" maxlength="11" placeholder="(16)99999-9999">
+
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade" maxlength="30" placeholder="Digite sua Cidade">
+
+        <label for="Endereço">Endereço</label>
+        <input type="text" name="endereco" id="endereco" maxlength="25" placeholder="Digite o seu Endereço">
+
+        <label for="numero">Número</label>
+        <input type="text" name="numero" id="numero" maxlength="8" placeholder="Ex:999">
+
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro" id="bairro" maxlength="50" placeholder="Digite o seu bairro">
+
+        <label for="complemento">Complemento</label>
+        <input type="text" name="complemento" id="complemento" maxlength="25" placeholder="Digite o complemento">
+
+        <label for="descricao">Descrição</label>
+        <textarea name="descricao" id="descricao" cols="30" rows="10" maxlength="300" placeholder="Ex:Necessito de pintura externa, aplicação de textura."></textarea>
+        <p id="contador">300</p>
+
+        <span >
+            <button id="button">Enviar</button>
+        </span>
+
+    </form>
+
+
+    <div id="modal" class="hidden">
+       <img src="/img/enviado-com-sucesso.jpg" alt="Formulário Enviado Com Sucesso">
+
+    </div>
+
+    <footer>
+        <h2>Empresa que presa qualidade na prestação de seus serviços.</h2>
+        <div class="container">
+            <div>
+                <p>Endereço: Rua 16</p>
+                <p>Número: 740A</p>
+                <p>Bairro: Jardim Benini</p>
+                <p>Cidade: Orlândia/SP</p>
+            </div>
+
+            <div>
+                <img src="/img/face-icon.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

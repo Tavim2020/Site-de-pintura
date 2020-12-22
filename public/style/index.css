@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin-top: 14vh;
+}
+
+.fixed{
+    display: flex;
+    width: 100vw;
+    height: 14vh;
+    align-items: center;
+    justify-content: center;
+    background: #2BD9FE;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.fixed div{
+    margin-right: 5vw;
+}
+
+.fixed h1{
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.menu{
+    margin-left: 2vw;
+    z-index: 4;
+    position: relative;
+}
+
+.menu div{
+    width: 13vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 80%;
+    margin-left: -0.1vw;
+    background: #077187;
+    border-bottom-left-radius: 0.7320644216691069vh;
+    border-bottom-right-radius: 0.7320644216691069vh;
+    border-top-right-radius: 0.7320644216691069vw;
+    color: #fff;
+}
+
+.menu div span{
+    display: flex;
+}
+
+.menu div h3{
+    font-size: 2vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    text-align: center;
+}
+
+.menu div h4{
+    font-size: 1.6vw;
+    margin-bottom: 1vh;
+}
+
+.menu div nav ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+.menu div nav ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    list-style: none;
+    font-size: 1.5vw;
+    margin-bottom: 2vh; 
+}
+
+
+.menu div nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.menu-img{
+    width: 5vw;
+    height: 11vh;
+}
+
+.whats-top{
+    width: 4.5vw;
+    height: 7.5vh;
+}
+
+.barra-acess{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden{
+    display: none !important;
+}
+
+/* Barra de contato */
+
+.contato-top{
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: #beb69f;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.contato-top h4{
+    margin-right: 2vw;
+    font-size: 1.5vw;
+    font-family: 'rubik', sans-serif;
+    color: #fff;
+}
+
+/* Slide */
+
+aside{
+    width: 100vw;
+    padding-bottom: 56% ;
+    position: relative;
+    z-index: 1;
+}
+
+.img-banner img{
+    width: 100vw;
+    position: absolute;
+}
+
+
+/* Article - Sobre a empresa */
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(238, 238, 238);
+}
+
+article h3{
+    margin-left: 11.980966325036603vw;
+    margin-top: 2.1961932650073206vw;
+    margin-bottom: 2.1961932650073206vw;
+    font-size: 1.8301610541727673vw;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+article span{
+    margin-left: 11.980966325036603vw;
+    display: flex;
+    align-items: center;
+}
+
+article span p{
+    width: 29.282576866764277vw;
+    font-size: 1.4641288433382138vw;
+    margin-right: 8.052708638360176vw;
+}
+
+article span img{
+    width: 26.35431918008785vw;
+    height: 36.986301369863014vh;
+    border-radius: 0.8051529790660226vw;
+}
+
+article a{
+    width: 8.052708638360176vw;
+    height: 2.9282576866764276vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 11.71303074670571vw;
+    margin-bottom: 3.6603221083455346vw;
+    margin-top: 2vh;
+    border-radius: 7px;
+    justify-content: center;
+    font-size: 1.610541727672035vw;
+    font-weight: 400;
+    background: #2BD9FE;
+    color: #fff;
+}
+
+/* ABA DE SERVIÇOS DA HOME  */
+
+.pinturas{
+    display: flex;
+    width: 100vw;
+    height: 70.051750380517504vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.pinturas h2{
+    margin-left: -2.781844802342606vw;
+    font-size: 2.049780380673499vw;
+    margin-top: -15vh;
+}
+
+.pinturas div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinturas a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 2.1961932650073206vw;
+    width: 23.6vw;
+    height: 40.4855403348554vh;
+    border: 0.14641288433382138vw solid #000;
+    border-radius: 0.5856515373352855vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 2.1961932650073206vw;
+    margin-bottom: -15vh;
+}
+
+.residencial{
+    background: url(../img/residencial.jpg) no-repeat;
+    background-position: center;
+    width: 24.301610541727673vw;
+    height: 40.4855403348554vh;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+.predial{
+    background: url(../img/predio.jpg) no-repeat;
+    background-position: center;
+    width: 24.301610541727673vw;
+    height: 40.4855403348554vh;
+    background-size: cover;
+    opacity: 0.4;
+    
+}
+
+.comercial{
+    background: url(../img/comercial.jpg) no-repeat;
+    background-position: center;
+    width: 24.301610541727673vw;
+    height: 40.4855403348554vh;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+.pinturas p{
+    position: absolute;
+    font-size: 1.8301610541727673vw;
+    font-weight: 600;
+    color: #000;
+}
+
+/* footer */
+
+footer{
+    width: 100vw;
+    background-color: #077187;
+    color: #fff;
+    padding-bottom: 1.5220700152207vh;
+}
+
+footer h2{
+    padding-top: 4.566210045662101vh;
+    margin-left: 10.980966325036603vw;
+    font-size: 2.1961932650073206vw;
+}
+
+footer div p{
+    margin-left: 10.980966325036603vw;
+    font-size: 1.4641288433382138vw;
+}
+
+footer div h3{
+    margin-left: 10.980966325036603vw;
+    font-size: 1.8301610541727673vw;
+}
+
+footer div div a{
+    text-decoration: none;
+    color: #2BD9FE;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container div:nth-child(1){
+    margin-right: 29.282576866764277vw;
+}
+
+.container div img{
+    width: 10.980966325036603vw;
+}
+
+
+
+
